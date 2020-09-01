@@ -973,9 +973,9 @@
     "restore": {
       "projectUniqueName": "Retry Framework",
       "projectName": "Retry Framework",
-      "projectPath": "C:\\Users\\max\\Documents\\UiPath\\Retry_Framework_V0.9\\.local",
+      "projectPath": "C:\\Users\\max\\git_repos\\Max_Framework\\.local",
       "packagesPath": "C:\\Users\\max\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\max\\Documents\\UiPath\\Retry_Framework_V0.9\\.local"
+      "outputPath": "C:\\Users\\max\\git_repos\\Max_Framework\\.local"
     },
     "frameworks": {
       "net461": {

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1234,831" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1169,2362" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:swf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -52,7 +52,7 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Base" sap:VirtualizedContainerService.HintSize="480,385" sap2010:WorkflowViewState.IdRef="Sequence_27">
+  <Sequence DisplayName="Base" sap:VirtualizedContainerService.HintSize="500,2297" sap2010:WorkflowViewState.IdRef="Sequence_27">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="machineName" />
       <Variable x:TypeArguments="x:String" Name="timeOfCrash" />
@@ -66,9 +66,9 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Global Try Catch" sap:VirtualizedContainerService.HintSize="438,293" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+    <TryCatch DisplayName="Global Try Catch" sap:VirtualizedContainerService.HintSize="458,2205" sap2010:WorkflowViewState.IdRef="TryCatch_5">
       <TryCatch.Try>
-        <Sequence DisplayName="main" sap:VirtualizedContainerService.HintSize="908,2510" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="main" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Int32" Default="0" Name="transactionNumber" />
             <Variable x:TypeArguments="x:String" Name="PATH" />
@@ -1082,10 +1082,10 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_6">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="424,2043" sap2010:WorkflowViewState.IdRef="Catch`1_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -1093,7 +1093,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence sap:VirtualizedContainerService.HintSize="418,1971" sap2010:WorkflowViewState.IdRef="Sequence_31">
+            <Sequence sap:VirtualizedContainerService.HintSize="418,1974" sap2010:WorkflowViewState.IdRef="Sequence_31">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1144,7 +1144,7 @@
                 </Assign>
                 <ui:SaveImage DisplayName="Save image" FileName="[logFolder + config(&quot;errorScreenshot&quot;)]" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[screenshot]" />
               </Sequence>
-              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="email draft is ON&#xA;&#xA;&quot;Crash report for robot: &quot; + config(&quot;robotName&quot;) + environment.NewLine + &quot;User: &quot; + userName + environment.NewLine + &quot;Machine: &quot; + machineName + environment.NewLine + &quot;Time of crash: &quot; + timeOfCrash + environment.NewLine + &quot;Error message: &quot; + exception.Message" Body="[&quot;Crash report for robot: &quot; + config(&quot;robotName&quot;) + environment.NewLine + &quot;User: &quot; + userName + environment.NewLine + &quot;Machine: &quot; + machineName + environment.NewLine + &quot;Time of crash: &quot; + timeOfCrash + environment.NewLine + &quot;Error message: &quot; + exception.Message]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="376,277" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="False" IsDraft="True" Subject="Bot Crash Report" To="[config(&quot;supportEmail&quot;)]">
+              <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="email draft is OFF&#xA;&#xA;&quot;Crash report for robot: &quot; + config(&quot;robotName&quot;) + environment.NewLine + &quot;User: &quot; + userName + environment.NewLine + &quot;Machine: &quot; + machineName + environment.NewLine + &quot;Time of crash: &quot; + timeOfCrash + environment.NewLine + &quot;Error message: &quot; + exception.Message" Body="[&quot;Crash report for robot: &quot; + config(&quot;robotName&quot;) + environment.NewLine + &quot;User: &quot; + userName + environment.NewLine + &quot;Machine: &quot; + machineName + environment.NewLine + &quot;Time of crash: &quot; + timeOfCrash + environment.NewLine + &quot;Error message: &quot; + exception.Message]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="376,277" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="False" IsDraft="False" Subject="Bot Crash Report" To="[config(&quot;supportEmail&quot;)]">
                 <ui:SendOutlookMail.Files>
                   <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                     <InArgument x:TypeArguments="x:String">[logFile]</InArgument>

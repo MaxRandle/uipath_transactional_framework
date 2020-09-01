@@ -19,7 +19,7 @@
         "C:\\Users\\max\\.nuget\\packages\\uipath.excel.activities/2.4.6863.30657\\lib/net452/UiPath.Excel.Activities.dll",
         "C:\\Users\\max\\.nuget\\packages\\uipath.excel.activities/2.4.6863.30657\\lib/net452/UiPath.Excel.dll"
       ],
-      "Path": null
+      "Path": "C:\\Users\\max\\.nuget\\packages\\uipath.excel.activities\\2.4.6863.30657"
     },
     {
       "Package": {
@@ -36,7 +36,7 @@
         "C:\\Users\\max\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.Activities.dll",
         "C:\\Users\\max\\.nuget\\packages\\uipath.mail.activities/1.2.6863.29868\\lib/net40/UiPath.Mail.dll"
       ],
-      "Path": null
+      "Path": "C:\\Users\\max\\.nuget\\packages\\uipath.mail.activities\\1.2.6863.29868"
     },
     {
       "Package": {
@@ -60,7 +60,7 @@
         "C:\\Users\\max\\.nuget\\packages\\uipath.system.activities/18.3.6877.28276\\lib/net461/UiPath.System.Activities.Design.dll",
         "C:\\Users\\max\\.nuget\\packages\\uipath.system.activities/18.3.6877.28276\\lib/net461/UiPath.System.Activities.dll"
       ],
-      "Path": null
+      "Path": "C:\\Users\\max\\.nuget\\packages\\uipath.system.activities\\18.3.6877.28276"
     },
     {
       "Package": {
@@ -98,7 +98,7 @@
         "C:\\Users\\max\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.Package.dll",
         "C:\\Users\\max\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.dll"
       ],
-      "Path": null
+      "Path": "C:\\Users\\max\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6877.28298"
     }
   ],
   "Conflicts": [],
